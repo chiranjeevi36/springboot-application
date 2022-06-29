@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class JhooqController {
+public class ChiruController {
 
     @GetMapping("/hello")
     public String hello() {
